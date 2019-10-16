@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        textarea {
+            
+            margin-top: 20px
+        }
+
+        body {
+            margin: 0 auto;
+            width: 992px;
+            text-align: center
+        }
+
+        .container {
+            padding-top: 20vh;
+        }
+
+        input {
+            font-size: 16px;
+        }
+    
+        p {
+
+            font-size: 48px;
+
+        }
+
+    </style>
+</head>
+<body>
+  
+<div class="container">
+    <input id="input-url" placeholder="волшебное слово">
+    <button type="button" id="btn" text="23123">Отправить</button>
+    <div id="topid"></div>
+</div>
+
+
+
+<script>
+
+btn.addEventListener("click", btnClick);
+
+         function btnClick() {
+         var categoryUrl = document.getElementById("input-url").value;
+
+
+        
+
+         
+ 
+          function createOutput(one) {
+             var x = document.createElement("P");
+             var t = document.createTextNode(one);
+             x.appendChild(t);
+             document.body.appendChild(x);
+             }
+         
+             if (categoryUrl === 'Членская' || categoryUrl === 'членская' || categoryUrl === 'членская членская') {
+                var top = categoryUrl + ' ЧЕЧЕНСКАЯ'
+                createOutput(top);
+            } else {
+
+                var top = 'нет'
+                createOutput(top);
+
+            }
+         
+         
+         var items = [];
+         
+         
+
+             
+         
+            }
+            
+        
+       
+
+    </script>
+
+        
+
+</body>
+</html>
